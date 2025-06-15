@@ -117,7 +117,7 @@ class TelegramService {
       }[appointment.status] || "❓";
 
     return [
-      `*${statusEmoji} YENİ RANDEVU DURUMU\\\\! *
+      `*${statusEmoji} YENİ RANDEVU DURUMU *
 `,
       `🏢 *Merkez:* ${this.escapeMarkdown(
         appointment.center.replace(/\\s*-\\s*/g, "")
